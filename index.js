@@ -9,7 +9,7 @@ const genRestaurantCard = (restaurant) => {
           <h5 class="card-title">${restaurant.name}</h5></h5>
           <p class="card-text">${restaurant.type}</p>
           <a href="update.html" class="btn btn-warning">Edit</a>
-          <a href="#" class="btn btn-danger">delete</a>
+          <a href="delete.html" class="btn btn-danger">delete</a>
        </div>
     </div>
   `;
