@@ -1,9 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Kanit', sans-serif;
+.container h1{
+    margin: 2rem auto 1rem auto;
+    font-weight: 600;
 }
+
+.row .card{
+    border: none;
+    text-align: center;
+    margin: 1 auto;
+    border-radius: 30px;
+}
+
+.row>* {
+    --bs-gutter-x: 0;
+    margin: 1rem auto;
+}
+
+.row .btn{
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.card-body .btn{
+    border-radius: 15px;
+}
+
+.btn-warning{
+    width: 76.13px;
+}
+
+.container .form-label{
+    font-size: 20px;
+    color: #444;
+}
+
+.container .form-control{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+}
+
